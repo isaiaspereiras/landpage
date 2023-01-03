@@ -142,20 +142,41 @@ footer .container-foot {
     width: 70vw;
     margin: auto;
     padding: 20px;
-    background-color: #fff;
 }
 footer .container-foot .news {
     display: flex;
     justify-content: center;
     align-items: center ;
 }
+footer .container-foot .news .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    width: 300px;
+}
+footer .container-foot .news .left h1 {
+    color: #FAC02E;
+}
+footer .container-foot .news .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 footer .container-foot .news .right form {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 footer .container-foot .news .right form input {
     margin-top: 5px;
     padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 204.41px;
+    outline: 0;
 }
 footer .container-foot .news .right form #send {
     margin-top: 10px;
@@ -168,4 +189,28 @@ footer .container-foot .news .right form #send {
     color: #fff;
     text-shadow: 0px 2px 3px #000;
     cursor: pointer;
+}
+footer .bar-nav {
+    border: .3px solid #FAC02E;
+}
+footer .container-foot .copy {
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container-foot .copy .copy-left a {
+    color: #fff;
+}
+footer .container-foot .copy .copy-right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+footer .container-foot .copy .copy-right ul li {
+    margin-right: 20px;
+}
+footer .container-foot .copy .copy-right ul img {
+    width: 24px;
 }
